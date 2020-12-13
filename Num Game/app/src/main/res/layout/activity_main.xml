@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="left">
+
+    <Button
+        android:id="@+id/Run"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:text="Run"
+        android:layout_margin="20dp"
+/>
+    <Button
+        android:id="@+id/Num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/Num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/Output1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:textColor="	#008000"
+        android:gravity="left"
+        />
+
+    <TextView
+        android:id="@+id/Output2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="15sp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:textColor="	#FF0000"
+        android:gravity="right"
+        />
+
+    <Button
+        android:id="@+id/Again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        android:layout_gravity="left"
+        android:text="Play Again"
+        />
+
+
+</LinearLayout>
